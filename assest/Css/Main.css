@@ -4,12 +4,17 @@
     box-sizing: border-box;
     font-family: 'Roboto', Arial, sans-serif;
 }
-body{
+
+body {
     font-family: 'Roboto', Arial, sans-serif;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     font-family: 'Playfair Display', Georgia, serif;
 }
+
 .dashboard {
     display: flex;
     width: 100%;
@@ -178,7 +183,8 @@ h1, h2, h3 {
     flex-direction: column;
     /* margin: 15px; */
 }
-.rightbar{
+
+.rightbar {
     display: flex;
     flex-direction: row;
 }
@@ -251,10 +257,12 @@ header h2 {
     text-align: center;
     padding: 2px;
 }
+
 /*  */
-.progress h3{
+.progress h3 {
     margin-top: 20px;
 }
+
 .notesprogress3 {
     color: blue;
 }
@@ -285,7 +293,7 @@ header h2 {
 .card p {
     padding: 8px;
     text-align: justify;
-    
+
 }
 
 .cardicon i {
@@ -293,31 +301,37 @@ header h2 {
     color: #888;
     font-size: 15px;
 }
-.cardicon{
+
+.cardicon {
     color: #777;
 }
-.rating-container{
+
+.rating-container {
     display: flex;
     align-items: center;
     position: relative;
 
 }
-.stars{
+
+.stars {
     display: flex;
     cursor: pointer;
 }
-.star{
+
+.star {
     font-size: 1.8rem;
     color: #ccc;
     margin-right: 5px;
     transition: color 0.3s ease;
 }
+
 .star:hover,
-.star:hover~.star{
+.star:hover~.star {
     color: #ffa500;
 }
-.star .selected{
-    color:#ffa500 ;
+
+.star .selected {
+    color: #ffa500;
 }
 
 .tooltip {
@@ -334,8 +348,8 @@ header h2 {
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s;
-  }
-  
+}
+
 .tooltip.active {
     opacity: 1;
 }
@@ -375,26 +389,28 @@ header h2 {
     font-size: 20px;
 }
 
-.slidebar{
+.slidebar {
     display: flex;
     flex-direction: column;
     padding: 1rem;
     position: relative;
 }
-.book{
+
+.book {
     display: flex;
     /* flex-direction: column; */
-    justify-content:space-around;
+    justify-content: space-around;
     gap: 70px;
 }
-.booking{
+
+.booking {
     display: flex;
     justify-content: center;
     align-items: center;
-    border:1px solid black
-    
+    border: 1px solid black
 }
-.booking button{
+
+.booking button {
     border: none;
     font-size: 15px;
     width: 90px;
@@ -403,18 +419,21 @@ header h2 {
     background-color: rgba(0, 51, 255, 0.616);
     color: white;
     cursor: pointer;
-    
+
 }
-.booking i{
+
+.booking i {
     font-size: 20px;
 }
-.booking{
+
+.booking {
     border-radius: 8px;
     background-color: rgba(0, 51, 255, 0.826);
     color: white;
     cursor: pointer;
 }
-.bookbox{
+
+.bookbox {
     display: flex;
     height: 200px;
     width: 360px;
@@ -423,7 +442,7 @@ header h2 {
     border-radius: 10px;
 }
 
-.special{
+.special {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -431,39 +450,46 @@ header h2 {
     border-radius: 10px;
     padding-top: 5px;
 
-    
+
 }
-.special img{
+
+.special img {
     padding: 5px;
     height: 100px;
     width: 130px;
 }
-.special h3{
+
+.special h3 {
     color: rgba(0, 38, 255, 0.921);
 }
-.calender button{
+
+.calender button {
     display: flex;
     align-items: center;
     padding: 5px;
     border-radius: 5px;
     /* background-color: blue; */
-    color:rgba(0, 34, 255, 0.942);
+    color: rgba(0, 34, 255, 0.942);
     border: none;
     cursor: pointer;
 }
-.calender i{
+
+.calender i {
     padding-right: 5px;
 }
-.special p{
+
+.special p {
     margin-right: 20px;
     margin-left: 20px;
     text-align: center;
 }
+
 .schedule {
     margin-top: 10px;
     align-items: center;
 }
-.upcomeingli1{
+
+.upcomeingli1 {
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -471,7 +497,8 @@ header h2 {
     margin: 10px;
     border-radius: 10px;
 }
-.circlepoint i{
+
+.circlepoint i {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -480,39 +507,46 @@ header h2 {
     color: rgba(50, 170, 218, 0.811);
     margin-left: 0px;
 }
-.englishup{
+
+.englishup {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    
+
 }
-.englishup h3{
+
+.englishup h3 {
     padding-bottom: 4px;
 }
-.sidearrowto{
+
+.sidearrowto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 135px;
     color: #999999b1;
 }
-.sidearrowtomaths{
+
+.sidearrowtomaths {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 110px;
     color: #999999b1;
 }
-.lastpara{
+
+.lastpara {
     background-color: rgba(0, 110, 255, 0.196);
     margin: 10px;
     padding: 10px;
     text-align: 30px;
     border-radius: 10px;
 }
-.lastpara h5{
+
+.lastpara h5 {
     font-size: 15px;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -563,7 +597,8 @@ label {
     margin: 10px 0 5px;
 }
 
-input, select {
+input,
+select {
     padding: 8px;
     font-size: 14px;
     border: 1px solid #ccc;
@@ -571,10 +606,11 @@ input, select {
     border-top: none;
     border-left: none;
     border-right: none;
-    
+
 
 }
-select:hover{
+
+select:hover {
     color: blue;
 }
 
@@ -584,7 +620,8 @@ select:hover{
     margin-top: 15px;
 }
 
-.cancelbtn, .savebtn {
+.cancelbtn,
+.savebtn {
     border: none;
     padding: 8px 15px;
     border-radius: 4px;
@@ -604,15 +641,17 @@ select:hover{
 .savebtn:hover {
     background-color: #218838;
 }
-.card1{
+
+.card1 {
     border: 1px solid #ddd;
     padding: 1px;
     margin-top: 10px;
     text-align: center;
     border-radius: 10px;
-    background-color: rgba(135, 206, 250, 0.308) ;
+    background-color: rgba(135, 206, 250, 0.308);
 }
-.card1 button{
+
+.card1 button {
     background-color: blue;
     color: white;
     border: none;
@@ -620,7 +659,174 @@ select:hover{
     border-radius: 5px;
     cursor: pointer;
 }
-.hidden{
+
+.hidden {
     display: none;
 }
 
+
+
+@media screen and (max-width: 768px) {
+    .dashboard {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .sidebar {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+
+    }
+
+    ul {
+        display: none;
+    }
+
+    .logout {
+        display: none;
+    }
+
+    .sidebar nav ul a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .topnav {
+
+        flex-direction: column;
+        align-items: start;
+        padding: 0px;
+    }
+
+    .icon {
+        display: none;
+
+    }
+
+    .topnav .input1 {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .topnav .input1 input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .topnav .bell {
+        margin: 10px 0;
+    }
+
+    .logoimg img {
+        width: 40px;
+        height: 40px;
+        margin: 10px 0;
+    }
+
+    .centerbar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .video {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .videapara {
+        font-size: 14px;
+    }
+
+    .progress {
+        margin-top: 15px;
+    }
+
+    .notes ul {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .progress-section {
+        margin-top: 30px;
+    }
+
+    .progress-cards {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        /* margin-top: 10px; */
+    }
+
+    .card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .rightbar {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .slidebar {
+        margin-top: 10px;
+    }
+
+    .special img {
+        height: 80px;
+        width: 100px;
+    }
+
+    .special h3 {
+        font-size: 18px;
+    }
+
+    .booking button {
+        font-size: 12px;
+        width: 80px;
+    }
+
+    .bookbox {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .schedule {
+        margin: 10px 0;
+    }
+
+    .upcomeingli1 {
+        flex-direction: column;
+        padding: 10px;
+
+    }
+
+    .englishup {
+        font-size: 16px;
+        /* margin-left: 50px; */
+        margin-top: -20px;
+        text-align: center;
+
+    }
+
+
+    .lastpara {
+        font-size: 14px;
+    }
+
+    .modelcontent {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .savebtn,
+    .cancelbtn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
