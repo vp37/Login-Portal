@@ -105,6 +105,10 @@ form{
         width: 95%;
         height: auto;
         box-shadow: none;
+        overflow: hidden;
+    }
+    body{
+        overflow: hidden;
     }
     
         .loginbox {
